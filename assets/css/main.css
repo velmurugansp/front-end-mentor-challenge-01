@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body, html, .container{
+    height: 100%;
+}
+body{
+ background: #F5D04E;
+ font: 600 16px/1.4 'Figtree', Arial, san-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article.card{
+    width: 384px;
+    max-width: 100%;
+    border: solid 1px #000;
+    border-radius: 20px;
+    min-height: 522px;
+    box-shadow: #000 7px 6px 0px;
+    padding: 23px;
+    position: relative;
+    background-color: #fff;
+}
+.card .card-header{
+    
+}
+.card .card-header img{
+    display: block;
+    border-radius: 8px;
+    max-width: 100%;
+}
+.card .card-body{
+    margin-bottom: 26px;
+}
+.card .card-body .labels{
+    margin: 22px 0 6px;
+}
+.card .card-body .labels .label{
+    background: hsl(47, 88%, 63%);
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Figtree';
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+.card .card-body h3.date{
+    margin: 6px 0 14px;
+    font-size: 14px;
+    font-family: 'Figtree';
+}
+.card .card-body h2{
+    font-size: 24px;
+    font-family: 'Figtree';
+    font-weight: 800;
+    margin: 0px 0 16px;
+}
+.card .card-footer {
+    display: flex;
+    align-items: center;
+}
+.card .card-footer img{
+    width: 34px;
+}
+.card .card-footer h3{
+    margin: 0 0 0 9px;
+    font-size: 14px;
+}
